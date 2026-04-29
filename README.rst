@@ -18,90 +18,105 @@ the I/O cell reference table for quick reference.
      - Height (um)
      - Area (um^2)
      - Pin Count
+     - Functionality
      - Pins
    * - asig_5p0
      - 75.0
      - 350.0
      - 26250.0
      - 5
+     - 5V WR analogue signal pad with double diode protection (DC current carrying capability 10mA)
      - ASIG5V, DVDD, DVSS, VDD, VSS
    * - bi_24t
      - 75.0
      - 350.0
      - 26250.0
      - 13
+     - 5V WR bidirectional pad with 24mA drive strength tri-state output buffer, fast/slow slew rate control, pull-up/down and selectable CMOS/Schmitt input
      - PAD, A, CS, IE, OE, PD, PU, SL, Y, DVDD, DVSS, VDD, VSS
    * - bi_t
      - 75.0
      - 350.0
      - 26250.0
      - 15
+     - 5V WR bidirectional pad with programmable drive strength of 4mA, 8mA, 12mA and 16mA tri-state output buffer, fast/slow slew rate control, pull-up/down and selectable CMOS/Schmitt input
      - PAD, A, CS, IE, OE, PD, PDRV0, PDRV1, PU, SL, Y, DVDD, DVSS, VDD, VSS
    * - brk2
      - 2.0
      - 350.0
      - 700.0
      - 1
+     - 2um Breaker with VSS
      - VSS
    * - brk5
      - 5.0
      - 350.0
      - 1750.0
      - 1
+     - 5um Breaker with VSS
      - VSS
    * - cor
      - 355.0
      - 355.0
      - 126025.0
      - 4
+     - Corner cell
      - DVDD, DVSS, VDD, VSS
    * - dvdd
      - 75.0
      - 350.0
      - 26250.0
      - 3
+     - Power supply cell (DC current carrying capability 60mA)
      - DVDD, DVSS, VSS
    * - dvss
      - 75.0
      - 350.0
      - 26250.0
      - 3
+     - Ground cell (DC current carrying capability 60mA)
      - DVSS, DVDD, VDD
    * - fill1
      - 1.0
      - 350.0
      - 350.0
      - 4
+     - 1um filler
      - DVDD, DVSS, VDD, VSS
    * - fill10
      - 10.0
      - 350.0
      - 3500.0
      - 4
+     - 10um filler
      - DVDD, DVSS, VDD, VSS
    * - fill5
      - 5.0
      - 350.0
      - 1750.0
      - 4
+     - 5um filler
      - DVDD, DVSS, VDD, VSS
    * - fillnc
      - 0.1
      - 350.0
      - 35.0
      - 4
+     - Filler for gap width less than 1um
      - DVDD, DVSS, VDD, VSS
    * - in_c
      - 75.0
      - 350.0
      - 26250.0
      - 8
+     - 5V WR CMOS input only pad with pull-up/down
      - PAD, PD, PU, Y, DVDD, DVSS, VDD, VSS
    * - in_s
      - 75.0
      - 350.0
      - 26250.0
      - 8
+     - 5V WR Schmitt Trigger input only pad with pull-up/down
      - PAD, PD, PU, Y, DVDD, DVSS, VDD, VSS
 
 License
